@@ -16,22 +16,20 @@ for iter = 1:num_iters
     % Hint: While debugging, it can be useful to print out the values
     %       of the cost function (computeCost) and gradient here.
     %
+    x = X(:,2);  % get data from X, the profit.
 
-    x =X(:,2);
-    % hypothesis
-    h =theta(1) + (theta(2)*x);
-    % update theta() simultaneously
-    theta_1 = theta(1) - alpha*(1/m)*sum(h-y); 
-    theta_2 = theta(2) - alpha*(1/m)*sum((h-y).*x);
+    %% theta(0,0) initial
+    h = theta(1) + (x*theta(2)); % hypothesis 
+    % repeat until convergence
+    theta_1 = theta(1) - alpha*(1/m)*sum(h - y); 
+    theta_2 = theta(2) - alpha*(1/m)*sum((h-y).*x); % vector multiplication
 
+    % simultaneously update theta
     theta = [theta_1; theta_2];
 
-    % ============================================================
-
-    % Save the cost J in every iteration    
+    % update/save the cost function J in every iteration
     J_history(iter) = computeCost(X, y, theta);
 
 end
-    % display result
     disp(min(J_history));
 end

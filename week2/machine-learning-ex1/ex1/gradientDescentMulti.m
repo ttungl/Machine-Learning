@@ -16,19 +16,28 @@ for iter = 1:num_iters
     % Hint: While debugging, it can be useful to print out the values
     %       of the cost function (computeCostMulti) and gradient here.
     %
+    %% 
+    % gradient descent for multiple variables
+    % repeat until convergence (vectorization)
+    
+    % c1
+    % theta = theta - (alpha / m) * X' * (X * theta - y);
+    
+    % c2
+    h = X*theta;
+    errors = h - y;
+    deriv = X' * errors; % derivative by theta
+    theta = theta - (alpha/m) * deriv;
 
-
-
-
-
-
-
-
-
-
+    % c3
+    % htheta = X * theta;
+    % theta_tmp = zeros(3, 1);
+    % for row = 1:size(theta, 1)
+    %     theta_tmp(row) = theta(row) - alpha / m * sum((htheta - y) .* X(:,row));
+    % end
+    % theta = theta_tmp;
 
     % ============================================================
-
     % Save the cost J in every iteration    
     J_history(iter) = computeCostMulti(X, y, theta);
 

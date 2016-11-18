@@ -13,16 +13,15 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-% vectorized implementation.
-% predict1=[1, 3.5]*theta;
-% predict2=[1, 7]*theta;
+% h_theta(x) = sum{j=0:n} theta_j * x_j ; % prediction = theta' * X
+% vectorization linear regression hypothesis
+predict = X*theta; 
 
-predict = X*theta; % predictions of hypothesis on training examples.
-sqrErrors = (predict - y).^2; % squared errors
+% squared errors; gradient descent
+sqrErrors = (predict - y).^2; 
 
-J = 1/(2*m)*sum(sqrErrors);
-
-
+% cost function J(theta)
+J = 1/(2*m)*sum(sqrErrors); %% return this cost function to compute gradient descent.
 
 % =========================================================================
 

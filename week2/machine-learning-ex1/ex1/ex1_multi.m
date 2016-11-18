@@ -35,9 +35,9 @@ fprintf('Loading data ...\n');
 
 %% Load Data
 data = load('ex1data2.txt');
-X = data(:, 1:2);
-y = data(:, 3);
-m = length(y);
+X = data(:, 1:2); % X1 and X2
+y = data(:, 3); % y
+m = length(y); % #training examples
 
 % Print out some data points
 fprintf('First 10 examples from the dataset: \n');
@@ -82,18 +82,38 @@ X = [ones(m, 1) X];
 fprintf('Running gradient descent ...\n');
 
 % Choose some alpha value
-alpha = 0.01;
-num_iters = 400;
+% alpha = 0.01; %% learning rate (check)
+% num_iters = 400; %% original
 
-% Init Theta and Run Gradient Descent 
-theta = zeros(3, 1);
-[theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
-
-% Plot the convergence graph
-figure;
-plot(1:numel(J_history), J_history, '-b', 'LineWidth', 2);
-xlabel('Number of iterations');
-ylabel('Cost J');
+%% modified by 3.2.1
+alpha = 0.3; %% learning rate of range[0.001, 10]
+num_iters = 50;
+	% Init Theta and Run Gradient Descent 
+	theta = zeros(3, 1); % three-dimensional
+	[theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
+	% Plot the convergence graph
+	figure;
+	plot(1:numel(J_history), J_history, '-b', 'LineWidth', 2);
+	xlabel('Number of iterations');
+	ylabel('Cost J');
+	hold on; 
+%---
+% alpha = 0.1; %% learning rate of range[0.001, 10]
+% num_iters = 50;
+% 	% Init Theta and Run Gradient Descent 
+% 	theta = zeros(3, 1); % three-dimensional
+% 	[theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
+% 	plot(1:numel(J_history), J_history, '-r', 'LineWidth', 2);
+% 	hold on;
+% % %---
+% alpha = 0.01; %% learning rate of range[0.001, 10]
+% num_iters = 50;
+% 	% 
+% 	theta = zeros(3, 1); % three-dimensional
+% 	[theta, J_history] = gradientDescentMulti(X, y, theta, alpha, num_iters);
+% 	plot(1:numel(J_history), J_history, '-g', 'LineWidth', 2);
+% 	legend('alpha=0.01','alpha=0.1','alpha=0.3'); % in order.
+% 	hold on; 
 
 % Display gradient descent's result
 fprintf('Theta computed from gradient descent: \n');
@@ -104,8 +124,8 @@ fprintf('\n');
 % ====================== YOUR CODE HERE ======================
 % Recall that the first column of X is all-ones. Thus, it does
 % not need to be normalized.
-price = 0; % You should change this
-
+price = ([1, 1650, 3] - [0 mu]) ./ [1 sigma] * theta;% changed for estimating the price required.
+% price = [1, 1650, 3]*theta;
 
 % ============================================================
 
@@ -149,7 +169,7 @@ fprintf('\n');
 
 % Estimate the price of a 1650 sq-ft, 3 br house
 % ====================== YOUR CODE HERE ======================
-price = 0; % You should change this
+price = [1,1650,3]*theta; % You should change this
 
 
 % ============================================================

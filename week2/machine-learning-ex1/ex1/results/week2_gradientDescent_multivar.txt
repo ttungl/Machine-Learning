@@ -1,0 +1,16 @@
+Theta computed from gradient descent:
+ 340412.653452
+ 110572.961931
+ -6591.385923
+
+Predicted price of a 1650 sq-ft, 3 br house (using gradient descent):
+ $293094.098122
+Program paused. Press enter to continue.
+Solving with normal equations...
+Theta computed from the normal equations:
+ 89597.909542
+ 139.210674
+ -8738.019112
+
+Predicted price of a 1650 sq-ft, 3 br house (using normal equations):
+ $293081.464335
