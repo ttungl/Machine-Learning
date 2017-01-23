@@ -4,5 +4,5 @@
         Author: Tung Thanh Le
         Contact: ttungl at gmail
 
-* Week #2: Uni/Multivariate Linear Regression
-* Week #3: Logistic Regression and Regularized Logistic Regression
+* Week #2: Univariate / Multivariate Linear Regression.
+* Week #3: Logistic Regression, and Regularized Logistic Regression.
