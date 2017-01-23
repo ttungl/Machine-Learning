@@ -1,0 +1,20 @@
+Cost at initial theta (zeros): 0.693147
+
+Program paused. Press enter to continue.
+Train Accuracy: 83.050847
+>> submit
+== Submitting solutions | Logistic Regression...
+Use token from last successful submission (ttungl@gmail.com)? (Y/n): y
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Sigmoid Function |   5 /   5 | Nice work!
+==                    Logistic Regression Cost |  30 /  30 | Nice work!
+==                Logistic Regression Gradient |  30 /  30 | Nice work!
+==                                     Predict |   5 /   5 | Nice work!
+==        Regularized Logistic Regression Cost |  15 /  15 | Nice work!
+==    Regularized Logistic Regression Gradient |  15 /  15 | Nice work!
+==                                   --------------------------------
+==                                             | 100 / 100 |
+==
+>>
