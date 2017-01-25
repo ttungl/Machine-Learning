@@ -2,7 +2,7 @@
  Octave version 3.8.0
 
         Author: Tung Thanh Le
-        Contact: ttungl at gmail
+        Contact: ttungl at gmail dot com
 
 * Week #2: Univariate / Multivariate Linear Regression.
 * Week #3: Logistic Regression, and Regularized Logistic Regression.
