@@ -15,7 +15,13 @@ p = zeros(m, 1);
 %               You should set p to a vector of 0's and 1's
 %
 
-p = round(sigmoid(X * theta)); % be careful: (theta * X) does not work!
+% be careful: (theta * X) does not work!
+% because X is a matrix of (n x n) 
+% and theta is a vector of (n x 1)
+% so, matrix multiplication theta*X yields
+% (n x 1)*(n x n) that simply doesn't work 
+% due to the size inconsistence.  
+p = round(sigmoid(X * theta)); 
 
 
 % =========================================================================
