@@ -173,12 +173,10 @@ fprintf('Theta computed from the normal equations: \n');
 fprintf(' %f \n', theta);
 fprintf('\n');
 
-
 % Estimate the price of a 1650 sq-ft, 3 br house
 % ====================== YOUR CODE HERE ======================
 % price = [1,9000,2,64,40,80]*theta; % You should change this
 price1 = [1, 1900, 2, 64, 40, 80]*theta; % You should change this
-
 
 % ============================================================
 
