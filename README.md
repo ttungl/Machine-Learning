@@ -1,5 +1,6 @@
 # Machine Learning (coursera - Andrew Ng)
  Octave version 3.8.0
+ Why Octave/Matlab? It supports the vectorized implementation, while using others, e.g. python, need to implement the for-loop for a bunch of information that have to be updated concurrently.
 
         Author: Tung Thanh Le
         Contact: ttungl at gmail dot com
