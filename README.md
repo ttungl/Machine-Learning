@@ -11,4 +11,4 @@
     Note that, Regularized Logistic Regression is applied with various `lambdas` to find a good fit data and the good decision boundary. If `lambda` is too large, underfitting the data (`lambda`~100). Otherwise, if it is too small, overfitting the data (`lambda`~0).   
 * Week #4: Neural Network with handwritten prediction. Use `feedforward propagation algorithm` to predict the labels of training sets. 
 * Week #5: Neural Network Training with handwritten. Use `backpropagation algorithm` to predict the labels of training sets. 
-* Week #7: Support Vector Machines (SVM). `SVM` is used to perform the classifications by building the classifiers based on the training datasets. It tends to separating between the datasets by finding the optimal hyperplane and maximizing the margin as large as possible.   
+* Week #7: Support Vector Machines (SVM). `SVM` is used to perform the classifications by building the classifiers based on the training datasets. It tends to separating the boundaries between the training datasets by finding the optimal hyperplane and maximizing the margin as large as possible.   
