@@ -33,24 +33,23 @@ email_contents = regexprep(email_contents, '<[^<>]+>', ' ');
 % Look for one or more characters between 0-9
 email_contents = regexprep(email_contents, '[0-9]+', 'number');
 
-% Handle URLS
+% Handle URLS % replace the URL to httpaddr.
 % Look for strings starting with http:// or https://
 email_contents = regexprep(email_contents, ...
                            '(http|https)://[^\s]*', 'httpaddr');
 
-% Handle Email Addresses
+% Handle Email Addresses, replace by emailaddr
 % Look for strings with @ in the middle
 email_contents = regexprep(email_contents, '[^\s]+@[^\s]+', 'emailaddr');
 
-% Handle $ sign
+% Handle $ sign, replace the dollar sign by dollar char
 email_contents = regexprep(email_contents, '[$]+', 'dollar');
-
 
 % ========================== Tokenize Email ===========================
 
 % Output the email to screen as well
 fprintf('\n==== Processed Email ====\n\n');
-
+% fprintf('%s ', email_contents);
 % Process file
 l = 0;
 
@@ -97,14 +96,13 @@ while ~isempty(email_contents)
     %       str2). It will return 1 only if the two strings are equivalent.
     %
 
-
-
-
-
-
-
-
-
+    % function: 
+    % If a match exists, add the index of 'str' to word_indices.
+    for i = 1:length(vocabList)
+        if(strcmp(str,vocabList{i}))
+            word_indices = [word_indices; i]
+        end
+    end
 
     % =============================================================
 
