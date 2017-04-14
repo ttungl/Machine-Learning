@@ -1,0 +1,140 @@
+ex8_cofi
+Loading movie ratings dataset.
+
+Average rating for movie 1 (Toy Story): 3.878319 / 5
+
+
+Program paused. Press enter to continue.
+Cost at loaded parameters: 22.224604
+(this value should be about 22.22)
+
+Program paused. Press enter to continue.
+
+Checking Gradients (without regularization) ...
+  -0.7982279  -0.7982279
+  -0.0120406  -0.0120406
+  -3.8086848  -3.8086848
+   3.6428001   3.6428001
+   1.0385219   1.0385219
+  -0.0365885  -0.0365885
+   2.1184201   2.1184201
+  -5.5264344  -5.5264344
+  -0.7852153  -0.7852153
+   0.0170272   0.0170272
+  -2.8724130  -2.8724130
+   5.5232256   5.5232256
+  -0.0791895  -0.0791895
+  -0.6880817  -0.6880817
+  -0.0510640  -0.0510640
+   0.4719294   0.4719294
+  -0.1767551  -0.1767551
+   0.1446304   0.1446304
+   1.9207824   1.9207824
+  -0.0092615  -0.0092615
+  -2.5283300  -2.5283300
+  -0.0296788  -0.0296788
+   0.0011969   0.0011969
+  -1.6081680  -1.6081680
+   0.2511012   0.2511012
+   3.6877190   3.6877190
+   0.1459765   0.1459765
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your cost function implementation is correct, then
+the relative difference will be small (less than 1e-9).
+
+Relative Difference: 9.74939e-13
+
+Program paused. Press enter to continue.
+Cost at loaded parameters (lambda = 1.5): 31.344056
+(this value should be about 31.34)
+
+Program paused. Press enter to continue.
+
+Checking Gradients (with regularization) ...
+   2.0616843   2.0616843
+   0.8689021   0.8689021
+   1.5138207   1.5138207
+   1.4200445   1.4200445
+  -2.8133223  -2.8133223
+  -6.2861497  -6.2861497
+   0.3567951   0.3567951
+  -2.5075060  -2.5075060
+  -2.6206951  -2.6206951
+  -6.1125157  -6.1125157
+  -0.4183185  -0.4183185
+   2.1048030   2.1048030
+  -1.3831486  -1.3831486
+   1.1149593   1.1149593
+  -0.0706266  -0.0706266
+   0.8631357   0.8631357
+  -0.0060677  -0.0060677
+   2.8757326   2.8757326
+   3.3055692   3.3055692
+   1.6589125   1.6589125
+   1.1446907   1.1446907
+   3.3507143   3.3507143
+   2.6354257   2.6354257
+   4.2493371   4.2493371
+  -2.5436040  -2.5436040
+   2.5212646   2.5212646
+   4.1571115   4.1571115
+The above two columns you get should be very similar.
+(Left-Your Numerical Gradient, Right-Analytical Gradient)
+
+If your cost function implementation is correct, then
+the relative difference will be small (less than 1e-9).
+
+Relative Difference: 2.42089e-12
+
+Program paused. Press enter to continue.
+
+
+New user ratings:
+Rated 4 for Toy Story (1995)
+Rated 3 for Twelve Monkeys (1995)
+Rated 5 for Usual Suspects, The (1995)
+Rated 4 for Outbreak (1995)
+Rated 5 for Shawshank Redemption, The (1994)
+Rated 3 for While You Were Sleeping (1995)
+Rated 5 for Forrest Gump (1994)
+Rated 2 for Silence of the Lambs, The (1991)
+Rated 4 for Alien (1979)
+Rated 5 for Die Hard 2 (1990)
+Rated 5 for Sphere (1998)
+
+Program paused. Press enter to continue.
+
+Training collaborative filtering...
+Iteration   100 | Cost: 3.896550e+04
+Recommender system learning completed.
+
+Program paused. Press enter to continue.
+
+Top recommendations for you:
+Predicting rating 5.0 for movie Santa with Muscles (1996)
+Predicting rating 5.0 for movie They Made Me a Criminal (1939)
+Predicting rating 5.0 for movie Great Day in Harlem, A (1994)
+Predicting rating 5.0 for movie Prefontaine (1997)
+Predicting rating 5.0 for movie Star Kid (1997)
+Predicting rating 5.0 for movie Marlene Dietrich: Shadow and Light (1996)
+Predicting rating 5.0 for movie Someone Else's America (1995)
+Predicting rating 5.0 for movie Aiqing wansui (1994)
+Predicting rating 5.0 for movie Entertaining Angels: The Dorothy Day Story (1996)
+Predicting rating 5.0 for movie Saint of Fort Washington, The (1993)
+
+
+Original ratings provided:
+Rated 4 for Toy Story (1995)
+Rated 3 for Twelve Monkeys (1995)
+Rated 5 for Usual Suspects, The (1995)
+Rated 4 for Outbreak (1995)
+Rated 5 for Shawshank Redemption, The (1994)
+Rated 3 for While You Were Sleeping (1995)
+Rated 5 for Forrest Gump (1994)
+Rated 2 for Silence of the Lambs, The (1991)
+Rated 4 for Alien (1979)
+Rated 5 for Die Hard 2 (1990)
+Rated 5 for Sphere (1998)
+>>
