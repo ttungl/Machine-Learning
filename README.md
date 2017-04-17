@@ -16,5 +16,5 @@
 * Week #8: `K-Means Clustering` and `Data Compression` using `PCA` (Principle Component Analysis). In unsupervised learning problems, `K-Means Clustering` is to cluster the similar data examples together. For data compression, `PCA` is used to reduce data from `n`-dimension to `k`-dimension (`k < n`). Note, PCA cannot be applied to preventing overfitting issue, instead, use regularization. Implemented k-Means clustering to cluster the image of 24-bit color, each pixel is represented as a data example, use k-Means to find 16 colors that best groups pixels in 3-D RGB space. Implemented PCA to reduce 3-D data to 2-D data. Two steps in PCA, first step is to compute the covariance matrix of the data. Second, use SVD function to compute the eigenvectors.
 * Week #9: `Anomaly Detection System` and `Recommender System`. Implement the `anomaly detection algorithm` and apply it to detect failing servers on a network. This basically detects the anomalies of the examples in the network (throughput, latency, etc.) using `Multivariate Gaussian Distribution`. Implement the `Recommender system` using the `collaborative filtering learning algorithm`. The objective is to predict the ratings for items that users have not yet rated.  
 
-# Disclaims
+##### Disclaims
 I completed the course on April 15, 2017. License will be updated soon in May. Thanks for viewing!
