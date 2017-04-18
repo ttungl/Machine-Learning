@@ -18,5 +18,7 @@
 
 ### Disclaims
 I completed the course on April 15, 2017. 
+
 License number: 7MMK9BZBASXN
+
 Certificate URL: https://www.coursera.org/account/accomplishments/records/7EXQHX72WRS2
