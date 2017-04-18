@@ -17,7 +17,7 @@
 * Week #9: `Anomaly Detection System` and `Recommender System`. Implement the `anomaly detection algorithm` and apply it to detect failing servers on a network. This basically detects the anomalies of the examples in the network (throughput, latency, etc.) using `Multivariate Gaussian Distribution`. Implement the `Recommender system` using the `collaborative filtering learning algorithm`. The objective is to predict the ratings for items that users have not yet rated.  
 
 ### Disclaims
-I completed the course on April 15, 2017, and got the certificate on April 16, 2017.
+I completed the course on April 16, 2017.
 
 License number: 7MMK9BZBASXN
 
