@@ -17,7 +17,7 @@
 * Week #9: `Anomaly Detection System` and `Recommender System`. Implement the `anomaly detection algorithm` and apply it to detect failing servers on a network. This basically detects the anomalies of the examples in the network (throughput, latency, etc.) using `Multivariate Gaussian Distribution`. Implement the `Recommender system` using the `collaborative filtering learning algorithm`. The objective is to predict the ratings for items that users have not yet rated.  
 
 ### Note
-In some topics, Dr. Andrew Ng does not go into detail, I recommend you to read the book titled: [https://statweb.stanford.edu/~tibs/ElemStatLearn/](The Elements of Statistical Learning -- 10th Edition), to understand the fundamentals.
+In some topics, Dr. Andrew Ng does not go into detail, I recommend you to read the book titled: [The Elements of Statistical Learning -- 10th Edition](https://statweb.stanford.edu/~tibs/ElemStatLearn/), to understand the fundamentals.
 
 ### Claims
 I completed the course on April 16, 2017.
