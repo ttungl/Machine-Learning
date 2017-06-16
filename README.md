@@ -22,7 +22,7 @@
 In some topics, Dr. Andrew Ng does not go into detail, I highly recommend you to read the book titled: [The Elements of Statistical Learning -- 10th Edition](https://statweb.stanford.edu/~tibs/ElemStatLearn/), to understand more about those topics. 
 
 ### Claims
-I completed the course on April 16, 2017.
+I completed the course on April 16, 2017. 
 
 License number: 7MMK9BZBASXN
 
