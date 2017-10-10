@@ -19,7 +19,7 @@
 * Week #11: Photo OCR (optical character recognition) problem; Sliding windows (image scanning); Artificial data analysis for photo OCR (combination of the source and the backgrounds); Ceiling analysis (what part of pipeline should spend the most time); 
 
 ### Note
-In some topics, Dr. Andrew Ng does not go into detail, I highly recommend you to read the book titled: [The Elements of Statistical Learning -- 10th Edition](https://web.stanford.edu/~hastie/Papers/ESLII.pdf), to understand more about those topics. 
+In some topics, Dr. Andrew Ng does not go into detail, I highly recommend you to read the book titled: [The Elements of Statistical Learning -- 10th Edition](https://web.stanford.edu/~hastie/ElemStatLearn/), to understand more about those topics. 
 
 ### Claims
 I completed the course on April 16, 2017. 
