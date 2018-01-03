@@ -20,7 +20,7 @@
 
 ### Note
 In some topics, Dr. Andrew Ng does not go into detail, I highly recommend you to read the books entitled below 
-to understand more about those topics (thanks the hints from [Shujian Liu](https://www.linkedin.com/in/shujian-liu/)).
+to understand more about those topics (thanks some hints from [Shujian Liu](https://www.linkedin.com/in/shujian-liu/)).
 * [The Elements of Statistical Learning -- 12th Edition (Updated Jan 2017)](https://web.stanford.edu/~hastie/ElemStatLearn/), 
 * [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
 * [Statistical Inference 2nd Edition](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126)
