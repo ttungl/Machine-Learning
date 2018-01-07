@@ -24,7 +24,7 @@ to understand more about those topics (thanks some hints from [Shujian Liu](http
 * [The Elements of Statistical Learning -- 12th Edition (Updated Jan 2017)](https://web.stanford.edu/~hastie/ElemStatLearn/)
 * [An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/)
 * [Statistical Inference 2nd Edition](https://www.amazon.com/Statistical-Inference-George-Casella/dp/0534243126)
-* [Statistical Learning -- Stanford Univ](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)
+* [Statistical Learning -- Stanford Univ, Winter 2016](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about)
 
 ### Claims
 I completed the course on April 16, 2017. 
